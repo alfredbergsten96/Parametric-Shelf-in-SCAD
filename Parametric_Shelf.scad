@@ -54,7 +54,6 @@ module Fillet(){
     minkowski(){
     translate([Corner_Radius,0,Corner_Radius])
         Main_Box();
-    translate([])    
         rotate([90,0,0])
            cylinder(r=Corner_Radius,h=0.001); 
     };
